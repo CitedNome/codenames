@@ -39,13 +39,14 @@ function reveal(card_id) {
 		card.backgroundColor = "blue";
 	}
 	else if (card.backgroundColor = "blue"){
-		card.backgroundColor = "white"
+		card.backgroundColor = "rgb(199, 199, 199)"
 	}
-	else if (card.backgroundColor = "white"){
+	else if (card.backgroundColor = "rgb(199, 199, 199)"){
 		card.backgroundColor = "red"
 }
 
 getWords()
+
 
 
 
