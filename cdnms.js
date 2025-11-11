@@ -42,10 +42,11 @@ function reveal(card_id) {
 		card.backgroundColor = "white"
 	}
 	else if (card.backgroundColor = "white"){
-		card.backgroundColor = "red")
+		card.backgroundColor = "red"
 }
 
 getWords()
+
 
 
 
