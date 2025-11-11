@@ -37,14 +37,15 @@ function reveal(card_id) {
 	var card = document.getElementById("card"+card_id);
 	if (card.backgroundColor = "red") {
 		card.backgroundColor = "blue";
-	};
-	else {if (card.backgroundColor = "blue"){
+	}
+	else if (card.backgroundColor = "blue"){
 		card.backgroundColor = "white"
-	}};
-	else {if (card.backgroundColor = "white"){
-		card.backgroundColor = "red")}
+	}
+	else if (card.backgroundColor = "white"){
+		card.backgroundColor = "red")
 }
 
 getWords()
+
 
 
