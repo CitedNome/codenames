@@ -43,10 +43,11 @@ function reveal(card_id) {
 	}
 	else if (card.backgroundColor = "rgb(199, 199, 199)"){
 		card.backgroundColor = "red"}
-	else {console.log("boh)}
+	else {console.log("boh")}
 }
 
 getWords()
+
 
 
 
