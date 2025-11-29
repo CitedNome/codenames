@@ -33,4 +33,25 @@ function getColors() {
     document.getElementById(all_cards_ids[0]).classList.add("black")
 }
 
+function reveal(card_id) {
+	var card = document.getElementById("card"+card_id);
+	if (card.backgroundColor = "red") {
+		card.backgroundColor = "blue";
+	}
+	else if (card.backgroundColor = "blue"){
+		card.backgroundColor = "rgb(199, 199, 199)"
+	}
+	else if (card.backgroundColor = "rgb(199, 199, 199)"){
+		card.backgroundColor = "red"}
+	else {console.log("boh")}
+}
+
 getWords()
+
+
+
+
+
+
+
+
