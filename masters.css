@@ -1,0 +1,42 @@
+#gridContainer {
+    margin: 0 auto;
+    width: 570px;
+    aspect-ratio: 1/1;
+    align-content: center;
+    background-color: #a87b4f;
+    background-image: url("imgs/masterCard.svg");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+    border-radius: 40px;
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 50%;
+    right: 50%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 1px;
+    width: 375px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 35px;
+    /* background-color: black; */
+}
+
+.cell {
+    margin: 0 auto;
+    width: 70px;
+    aspect-ratio: 1/1;
+    background-color: var(--wheat-bg);
+    background-size: 50%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border: solid black 2px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}

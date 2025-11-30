@@ -1,0 +1,75 @@
+:root {
+    --wheat-bg: #f4dab5;
+    --wheat-br: #ab977f;
+}
+
+body {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    background-color: rgb(20, 20, 20);
+    background-image: url("imgs/sfondoCodenames.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#navicons {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navIcon {
+    aspect-ratio: 1/1;
+    width: 50px;
+    margin: 5px;
+    border: solid 4px #ab977f;
+    border-radius: 10px;
+    background-color: #e7d6c4;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%
+}
+
+#fullscreenBtn {
+    background-image: url("imgs/frecce.svg");
+}
+
+#refreshBtn {
+    background-image: url("imgs/refresh.svg");
+}
+
+#infoBtn {
+    background-image: url("imgs/info.svg");
+    background-size: 10%;
+}
+
+a {
+    color:white;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.blue {
+    background-color: rgb(0, 0, 100);
+}
+
+.red {
+    background-color: rgb(100, 0, 0);
+}
+
+.green {
+    background-color: rgb(0, 100, 0);
+}
+
+.black {
+    background-color: black
+}

@@ -1,5 +1,9 @@
+//board.js
+
+// seleziona l'intero documento x il fullscreen
 var elem = document.documentElement;
-//tutte le parole
+
+// parole inserite nella gameboard, servirà per quando il lato spymasters e il lato operatives saranno sincronizzati
 var selected_words = []
 
 // Funzione che popola le cards con parole casuali pescate da una lista predefinita (sarebbe carino implementare parole personalizzate e selettore che determina in quale percentuale appaiono rispetto a quelle di default)
